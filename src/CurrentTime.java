@@ -13,7 +13,5 @@ public class CurrentTime
         long totalHours = totalMinutes / 60;
         long currentHour = (totalHours+5 +(totalMinutes/60 + 30)/60) % 24;
         System.out.print(+currentHour +":"+ currentMinutes +":"+ currentSecond);
-
-
     }
 }
