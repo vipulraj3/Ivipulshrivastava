@@ -13,7 +13,9 @@ public class boolean1 {
         }
         else{
             System.out.println("Please enter valid input: ");
+
         }
+
         input.close();
     }
 }
