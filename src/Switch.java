@@ -13,7 +13,7 @@ public class Switch {
             case 1: System.out.println("Compute tax for married jointly or qualifying widow(er)"); break;
             case 2: System.out.println("Compute tax for married filling separately"); break;
             case 3: System.out.println("Compute tax for head of household"); break;
-            default: System.out.println("Enter the valid status! "); System.exit(1);
+            default: System.out.println("Enter the valid status! "); break;
         }
 
     }
